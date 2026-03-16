@@ -1,28 +1,34 @@
-<<<<<<< HEAD
-# README
+# AI Research Explorer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails web application built for a Junior Software Developer apprenticeship technical assessment.
 
-Things you may want to cover:
+## Features
+- Personalized greeting input
+- Research domain inspired by AI, space, evolution, consciousness, and simulation
+- Dynamic content rendering
+- About page
+- Clean and simple interface
 
-* Ruby version
+## Technologies Used
+- Ruby
+- Ruby on Rails
 
-* System dependencies
+## How to Run
+1. Open terminal in the project folder
+2. Run:
+   bundle install
+   rails server
+3. Open in browser:
+   http://localhost:3000
 
-* Configuration
+## Project Structure
+- `config/routes.rb` — application routes
+- `app/controllers/home_controller.rb` — controller logic
+- `app/views/home/index.html.erb` — homepage
+- `app/views/home/about.html.erb` — about page
 
-* Database creation
+## Notes
+This project extends the minimum “Hello World” task into a small interactive application to demonstrate routing, controller logic, user input handling, and dynamic rendering in Rails.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# hello_app
->>>>>>> 75e8851668587b3c111bf3198aedc22b577d2010
+## Issues Encountered
+- Initial GitHub push required resolving a README merge conflict because the remote repository already contained a starter commit.
